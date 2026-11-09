@@ -1,0 +1,21 @@
+# Local credentials and settings
+.env
+.env.*
+!.env.example
+auth.json
+**/auth.json
+*credentials*
+*secret*
+*.key
+*.pem
+config.local.toml
+*.local.toml
+.codex/
+# Local state, backups, and experiment data
+backups/
+sessions/
+logs/
+*.log
+*.csv
+__pycache__/
+*.pyc
